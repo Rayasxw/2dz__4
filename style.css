@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+button {
+    width: 70px;
+    height: 35px;
+    background-color: #7b0d85;
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+button:hover {
+    background-color: rgb(146, 24, 116);
+}
+.counter {
+    text-align: center;
+    font-size: 24px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 2px solid #7b0d85;
+    margin: 30px 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    font-size: 24px;
+    
+}
+
+.coordinates {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.traffic-light {
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.light {
+    width: 60px;
+    height: 60px;
+    background-color: #555;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+    opacity: 0.2;
+}
+
+.yellow {
+    background-color: yellow;
+    opacity: 0.2;
+}
+
+.green {
+    background-color: rgb(18, 199, 18);
+    opacity: 0.2;
+}
+
+.active {
+    opacity: 1;
+}
