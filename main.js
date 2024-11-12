@@ -52,10 +52,13 @@ const greenLight = document.querySelector("#greenLight")
 const trafficLight = (title = prompt('Выберите один из цветов цветофора').toLowerCase().trim()) => {
     if(title === 'красный') {
         redLight.classList.add('active')
+        redLight.textContent = 'STOP'
     }else if(title === 'желтый'){
         yellowLight.classList.add('active')
+        yellowLight.textContent = 'WAIT'
     }else if (title === 'зеленый') {
         greenLight.classList.add('active')
+        greenLight.textContent = 'GO'
     }else {
         alert('Выберите один из цветов цветофора')
     }

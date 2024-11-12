@@ -56,21 +56,34 @@ button:hover {
     height: 60px;
     background-color: #555;
     border-radius: 50%;
+    
 }
 
 .red {
     background-color: red;
     opacity: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .yellow {
     background-color: yellow;
     opacity: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .green {
     background-color: rgb(18, 199, 18);
     opacity: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .active {
