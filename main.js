@@ -49,7 +49,7 @@ const yellowLight = document.querySelector("#yellowLight")
 const greenLight = document.querySelector("#greenLight")
 
 
-const trafficLight = (title = prompt('Выберите один из цветов цветофора').toLowerCase().trim()) => {
+const trafficLight = (title = prompt('Выберите один из цветов светофора').toLowerCase().trim()) => {
     if(title === 'красный') {
         redLight.classList.add('active')
         redLight.textContent = 'STOP'
@@ -60,7 +60,7 @@ const trafficLight = (title = prompt('Выберите один из цвето�
         greenLight.classList.add('active')
         greenLight.textContent = 'GO'
     }else {
-        alert('Выберите один из цветов цветофора')
+        alert('Выберите один из цветов светофора')
     }
 
 }
